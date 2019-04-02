@@ -1,5 +1,5 @@
-g = ARGV
-r = ARGV
+g = ARGV[0]
+r = ARGV[1]
 
- ve = Math.sqrt(2*ARGV[0].to_f*ARGV[1].to_f)
+ ve = Math.sqrt(2*g.to_f*r.to_f)
       puts "#{ve} mt/s"
