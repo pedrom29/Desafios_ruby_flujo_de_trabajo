@@ -26,5 +26,7 @@ elsif usuario == "tijera" and computador == "piedra"
     puts "¡Perdiste!, computador hizo piedra"
 elsif usuario == "tijera" and computador == "tijera"
     puts "Empate..."
+else
+    puts "Ingrese una opción valida"
 end
 
